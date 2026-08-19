@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --background: #080c1b;
+  --foreground: #ffffff;
+  --gold: #f4b223;
+  --gold-light: #ffd269;
+  --gold-dark: #b87e0a;
+  --royal-blue: #232a82;
+  --royal-blue-dark: #121752;
+  --royal-blue-light: #3d46bb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-gold-dark: var(--gold-dark);
+  --color-royal-blue: var(--royal-blue);
+  --color-royal-blue-dark: var(--royal-blue-dark);
+  --color-royal-blue-light: var(--royal-blue-light);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #080c1b;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #f4b223, #232a82);
+  border-radius: 4px;
+}
+
+/* Smooth transitions */
+a, button {
+  transition: all 0.25s ease;
+}
+
+/* Glassmorphism helpers */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-card-blue {
+  background: rgba(35, 42, 130, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(244, 178, 35, 0.25);
+}
