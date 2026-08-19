@@ -77,7 +77,7 @@ export default function Gallery() {
             className="relative aspect-square md:col-span-2 overflow-hidden rounded-2xl border border-[#f4b223]/30 bg-black shadow-xl"
           >
             <video
-              src="/gallery/video gallery.mp4"
+              src="/gallery/video-gallery.mp4"
               controls
               className="w-full h-full object-cover"
               poster="/champion-hero.png"

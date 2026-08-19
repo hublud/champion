@@ -70,7 +70,7 @@ export default function Recipes() {
             className="lg:col-span-6 relative h-[450px] rounded-3xl overflow-hidden shadow-2xl border border-gray-100 group"
           >
             <Image
-              src="/BY PRODUCTS.jpg.jpeg"
+              src="/by-products.jpeg"
               alt="Champions Rice Delicious Recipes"
               fill
               sizes="(max-width: 1024px) 100vw, 50vw"

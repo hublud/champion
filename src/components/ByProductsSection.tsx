@@ -71,7 +71,7 @@ export default function ByProductsSection() {
             {/* Image side */}
             <div className="lg:col-span-6 relative aspect-[16/10] lg:aspect-auto lg:h-[400px] w-full overflow-hidden">
               <Image
-                src="/BY PRODUCTS.jpg.jpeg"
+                src="/by-products.jpeg"
                 alt="Champions Rice, Broken Rice & Rice Bran by-products"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
