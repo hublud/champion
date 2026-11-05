@@ -85,8 +85,8 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3 text-gray-400 text-sm">
               <Mail className="w-4 h-4 text-[#f4b223] flex-shrink-0" />
-              <a href="mailto:info@championsrice.com" className="hover:text-[#f4b223] transition-colors">
-                info@championsrice.com
+              <a href="mailto:impact@championsrice.com" className="hover:text-[#f4b223] transition-colors">
+                impact@championsrice.com
               </a>
             </li>
           </ul>

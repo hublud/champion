@@ -111,16 +111,16 @@ export default function Hero() {
           <div className="absolute inset-0 bg-gradient-to-tr from-[#1a237e]/50 via-[#f4b223]/25 to-transparent rounded-3xl blur-2xl" />
           
           <div className="relative w-full rounded-3xl overflow-hidden border border-[#f4b223]/30 shadow-[0_25px_70px_rgba(0,0,0,0.85)] bg-[#0c1130] group">
-            <div className="relative aspect-[16/10] sm:aspect-[16/10] w-full bg-[#0d1338]">
+            <div className="relative aspect-[1024/721] w-full bg-[#0d1338]">
               <Image
-                src="/champion-hero.png"
+                src="/champion-hero.jpg"
                 alt="Champions Parboiled Rice 50kg Bag"
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover object-center group-hover:scale-105 transition-transform duration-700"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#060918]/80 via-transparent to-black/30" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#060918]/50 via-transparent to-black/20 pointer-events-none" />
             </div>
 
             {/* Floating Royal Glass Label */}

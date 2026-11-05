@@ -80,7 +80,7 @@ export default function Gallery() {
               src="/gallery/video-gallery.mp4"
               controls
               className="w-full h-full object-cover"
-              poster="/champion-hero.png"
+              poster="/champion-hero.jpg"
             />
           </motion.div>
         </div>

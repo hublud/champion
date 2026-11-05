@@ -77,8 +77,8 @@ export default function ContactSection() {
               </div>
               <div>
                 <h4 className="text-white font-bold text-sm">Email</h4>
-                <a href="mailto:info@championsrice.com" className="text-gray-300 text-xs sm:text-sm hover:text-[#f4b223] transition-colors mt-0.5 block">
-                  info@championsrice.com
+                <a href="mailto:impact@championsrice.com" className="text-gray-300 text-xs sm:text-sm hover:text-[#f4b223] transition-colors mt-0.5 block">
+                  impact@championsrice.com
                 </a>
               </div>
             </div>
